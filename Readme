@@ -1,7 +1,6 @@
-This pgm.py reads and write images in pgm format.
+File pgm.py reads and write images in pgm format.
 3 functions
    - averaging filter that blurr the image
    - edge detection, to create the sketch out of image
-   - highlight the paths with least information in white color, whose count can be deleted to compress the image 
-      while loosing minimum amount of information.
-
+   - highlight all the paths from top-to-bottom with least information in white color, whose count can be deleted to compress the image 
+      while loosing minimum amount of information
